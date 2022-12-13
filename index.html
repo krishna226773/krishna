@@ -13,6 +13,42 @@ THIS:
 CONSTRUCTOR:
            We can as many as constructors as we want but should vary parameter types.
  
-           If we define constructors ourselves JAVA will not provide default constructors. Java provides default constructors only when there are no constructors defined.
+           If we define constructors ourselves, JAVA will not provide default constructors. Java provides default constructors only when there are no constructors defined.
  
            We can also restrict defining constructor by doing private infront of constructor. We can still use static fields.
+           Constructor is used in the creation of an object.
+           
+           You can and should specify an appropriate access modifier, to control who should be able to create new instance of the class
+          It is used to initialize the object
+
+OOP?
+       Object oriented programming as a way to model real world objects as software objects which contain both data and code.
+CLASS
+       Class describes the data(fields) and behaviour(methods) that are relevant to the real worlds object we want to describe.
+       A class member can be field, method or some other type of dependent element.
+       if a field is static, there is only one copy in memory, and this value associated with the class.
+
+STATIC VARIABLE:
+                 Every instance of the class shares the same static variable.
+                 So, if changes are made to that variable all other instances of that class will see the effect of that change.
+                 It can be used:
+                               Storing counters
+                               Generating unique Ids
+                               storing a constant value that doesn't change, like PI for example.
+INSTANCE VARIABLE:
+                  Each instance has its own copy of an instance varaible.
+                  Every instance can have different value.
+                  instance variable represent the state, of a specific instance of a class.
+
+STATIC METHODS:
+                They're usually used for operations that don't require any data from an instance of the class.
+                Inside a static methods we can't use "this" keyword.
+
+INSTANCE METHODS:
+                Instance methods belongs to the specific instance of the class.
+
+If a methods doesn't use instance variables and instance methods then that method should declared as static methods.
+
+
+
+
